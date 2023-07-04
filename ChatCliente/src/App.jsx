@@ -5,9 +5,9 @@ export const Aplication = () => {
 
   const state = "no-autenticado"
   return (
-    <>
+    <div className="w-full">
       {state === "no-autenticad" ? <LoginRouter /> : <AppRouter />}
-    </>
+    </div>
   )
 }
 

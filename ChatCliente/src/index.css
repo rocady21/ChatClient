@@ -1,0 +1,13 @@
+.fromLogin .input {
+    border: none;
+}
+
+.fromLogin .input:focus {
+    outline: none;
+    border: none;
+}
+
+.navItems {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
