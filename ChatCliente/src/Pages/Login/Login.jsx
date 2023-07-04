@@ -1,7 +1,6 @@
-import React from 'react'
 
 export const Login = () => {
   return (
-    <div>Login</div>
+    <div className='text-black'>Login</div>
   )
 }

@@ -1,14 +1,14 @@
-import { useState } from 'react'
+import { AppRouter } from "./routes/AppRouter"
+import { LoginRouter } from "./routes/LoginRouter"
 
-function App() {
-  const [count, setCount] = useState(0)
+export const Aplication = () => {
 
+  const state = "no-autenticado"
   return (
     <>
-      <h1 className='text-center'>Mi Pagina web</h1>
-
+      {state === "no-autenticad" ? <LoginRouter /> : <AppRouter />}
     </>
   )
 }
 
-export default App
+
